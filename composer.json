@@ -2,6 +2,8 @@
     "name": "rduuke/router",
     "description": "PHP-friendly route system",
     "type": "library",
+    "homepage": "https://github.com/RDuuke/Router",
+    "keywords": ["librarie", "router", "api", "restfull"],
     "license": "MIT",
     "authors": [
         {
