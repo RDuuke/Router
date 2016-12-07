@@ -7,9 +7,9 @@ class Router
     private $routes = [];
     private $nameRoute = [];
 
-    public function __construct($url)
+    public function __construct()
     {
-        $this->url = $url;
+        $this->url = $_SERVER['REQUEST_URI'];
     }
 
 
