@@ -1,0 +1,22 @@
+{
+    "name": "rduuke/router",
+    "description": "PHP-friendly route system",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "RDuuke",
+            "email": "juuanduuke@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload":{
+        "psr-4":{
+            "RDuuke\\Router\\": "src/",
+            "App\\": "app/"
+        }
+
+    }
+}

@@ -14,7 +14,7 @@ $router->get("/article/:id-:slug", function ($id, $slug) use ($router) {
     echo $router->url('Posts#show', ['id' => 1, 'slug' => 'welcome']);
 }, 'posts.show')->with('id', '[0-9]+')->with('slug', '([a-z\-0-9]+)');
 
-$router->get("/posts/:id", "Posts#show");
+$router->get("/posts/:id-slug", "Posts#show");
     /*<form action="" method="post" >
         <input type="text" name="title">
         <button>Enviar</button>
