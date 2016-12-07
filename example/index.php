@@ -7,7 +7,8 @@ $router->get('/', function (){
 });
 
 
-#$router->get('/user/:id', function ($id){ #localhost:8080/Router/user/1 verb -> GET
+#localhost:8080/Router/user/1 verb -> GET
+#$router->get('/user/:id', function ($id){
 #   echo "Parameter id: {$id}";
 #});
 
