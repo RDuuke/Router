@@ -2,7 +2,7 @@
 
 ## Installation
 
-It's recommended that you use [Composer](https://getcomposer.org/) to install Slim.
+It's recommended that you use [Composer](https://getcomposer.org/) to install.
 
 ```bash
 $ composer require rduuke/router
