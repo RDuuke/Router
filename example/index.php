@@ -1,7 +1,7 @@
 <?php
-require 'vendor/autoload.php';
+require '../vendor/autoload.php';
 
-$router = new RDuuke\Router\Router();
+$router = new RDuuke\Router\Router($_GET['url']);
 $router->get('/', function (){
     echo "Welcome RDuuke\\Router";
 });
